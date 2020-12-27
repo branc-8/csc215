@@ -5,16 +5,19 @@
 /*digits, "unknown characters", and spaces then     */
 /*gives a checksum.                                 */
 
+// Declare libraries
 #include <iostream>
 #include <string>
 
+//Use the standard library in your namespace.
 using namespace std;
 
-
+// Main
 int main()
 {
+	// Declare variables, including the user string, a 'foo' variable,
+	// and strings to store the character types, string length, and the checksum.
 	string textToAnalyze;
-	int foo = 0;
 	int vowels = 0;
 	int consonants = 0;
 	int digits = 0;
@@ -22,12 +25,12 @@ int main()
 	int lengthOfStringSubmittedForAnalysis = 0;
 	int unknownCharacters = 0;
 	int checkSum = 0;
-	int bar = 0;
 
+	// Prompt user for a string to analyze.
 	cout << "Welcome to the CIA code Hunter Program!" << endl;
 	cout << "Please type in text to analyze: " << endl;
 	getline(cin, textToAnalyze);
-
+	// Loop which analyzes the text and increments variables of each type.
 	for (int i = 0; i < textToAnalyze.length(); ++i)
 	{
 		if (textToAnalyze[i] == 'a' || textToAnalyze[i] == 'e' || textToAnalyze[i] == 'i' ||
