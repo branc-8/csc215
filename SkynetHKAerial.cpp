@@ -13,7 +13,7 @@ using namespace std;
 // main
 int main()
 {
-	// Deckare variables for the search algorithm, random number generator, number of tries
+	// Declare variables for the search algorithm, random number generator, number of tries
 	// and prediction.
 	int searchGridLowNumber = 1;
 	int searchGridHighNumber = 64;
