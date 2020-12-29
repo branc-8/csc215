@@ -76,7 +76,7 @@ public:
     // print level strings
     void printLevel()
     {
-        cout << ln1 << "\n";
+        cout << "\n" << ln1 << "\n";
         cout << ln2 << "\n";
         cout << ln3 << "\n";
         cout << ln4 << "\n";
