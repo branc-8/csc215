@@ -121,7 +121,7 @@ int main()
     Level dragon(
         "You prove to be far more muscular than the skeleton and push it aside!",
         "You have not time to think about the sad look it gave you as you charge further inward toward\ntreasure and riches never seen before!",
-        "Minutes later you approach the final chamber and are greeted with the roar of a red dragon\nA fierce and powerful being with a hunger and greed that would drive the average human mad!",
+        "Minutes later you approach the final chamber and are greeted with the roar of a red dragon\nA fierce and powerful being with a hunger \nand greed that would mean insanity for a mere human!",
         "You meet its gaze with a reckless disregard for your life.\nIt meets yours with an equally reckless disregard for your life!\nWhat do you do!?",
         "Charge Onward, to Victory(1) Are you crazy? That thing is going to eat me! I'm outta here!(2)"
     );
